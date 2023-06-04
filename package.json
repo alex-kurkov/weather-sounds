@@ -1,6 +1,6 @@
 {
   "name": "module2-webpack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "educational project module2 webpack",
   "main": "index.js",
   "scripts": {
