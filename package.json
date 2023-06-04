@@ -7,7 +7,8 @@
     "start": "webpack serve --stats-error-details --open --config webpack/dev.config.js",
     "dev": "webpack --config webpack/dev.config.js",
     "build": "webpack --config webpack/prod.config.js",
-    "lint": "npx eslint . --fix"
+    "lint": "npx eslint . --fix",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "Alex Kurkov",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-webpack-plugin": "4.0.1",
+    "gh-pages": "5.0.0",
     "html-webpack-plugin": "5.5.1",
     "mini-css-extract-plugin": "2.7.6",
     "postcss": "8.4.24",
