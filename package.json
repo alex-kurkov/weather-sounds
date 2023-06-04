@@ -1,0 +1,36 @@
+{
+  "name": "module2-webpack",
+  "version": "0.0.1",
+  "description": "educational project module2 webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --stats-error-details --open --config webpack/dev.config.js",
+    "dev": "webpack --config webpack/dev.config.js",
+    "build": "webpack --config webpack/prod.config.js",
+    "lint": "npx eslint . --fix"
+  },
+  "author": "Alex Kurkov",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "11.0.0",
+    "css-loader": "6.8.1",
+    "css-minimizer-webpack-plugin": "5.0.0",
+    "eslint": "8.42.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-webpack-plugin": "4.0.1",
+    "html-webpack-plugin": "5.5.1",
+    "mini-css-extract-plugin": "2.7.6",
+    "postcss": "8.4.24",
+    "postcss-loader": "7.3.2",
+    "postcss-preset-env": "8.4.2",
+    "sass": "1.62.1",
+    "sass-loader": "13.3.1",
+    "style-loader": "3.3.3",
+    "terser-webpack-plugin": "5.3.9",
+    "webpack": "5.85.0",
+    "webpack-cli": "5.1.1",
+    "webpack-dev-server": "4.15.0",
+    "webpack-merge": "5.9.0"
+  }
+}

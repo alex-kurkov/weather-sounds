@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Module2 Project Webpack</title>
+  </head>
+  <body>
+    <div id="app">
+      <main class="content">
+        <h1 class="title">Weather sounds</h1>
+
+        <ul class="seasons"></ul>
+
+        <template id="card-template">
+          <li class="card-item">
+            <article class="seasons-card">
+              <div class="icon"></div>
+            </article>
+          </li>
+        </template>
+
+        <audio src="" id="audio" loop></audio>
+
+        <input
+          class="volume"
+          type="range"
+          id="volume"
+          name="volume"
+          min="0"
+          max="1"
+          step=".05"
+          value="0.50" />
+      </main>
+    </div>
+  </body>
+</html>
