@@ -90,6 +90,12 @@
   width: 20%;
   height: 20%;
   background-size: cover;
+  transition: background-image .5s ease;
+  will-change: background-image;
+
+  &.playing {
+    background-image: url('./assets/icons/pause.svg') !important;
+  }
 }
 
 .volume {
