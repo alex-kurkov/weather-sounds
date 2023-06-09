@@ -8,7 +8,7 @@ const rootDirectory = path.resolve(__dirname, '..');
 
 module.exports = {
   context: path.resolve(rootDirectory, 'src'),
-  entry: '../src/index.js',
+  entry: '../src/index.ts',
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(rootDirectory, 'dist'),

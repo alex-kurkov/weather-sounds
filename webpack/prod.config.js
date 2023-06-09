@@ -6,7 +6,6 @@ const base = require('./base.config');
 
 module.exports = merge({
   mode: 'production',
-  devtool: 'source-map',
   optimization: {
     minimize: true,
     minimizer: [
