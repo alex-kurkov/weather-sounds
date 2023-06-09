@@ -10,6 +10,8 @@ import snowSound from 'sounds/winter.mp3';
 import snowImage from 'images/winter-bg.jpg';
 import snowIcon from 'icons/cloud-snow.svg';
 
+console.log(sunSound);
+
 const seasons: ISeason[] =
 [
   {

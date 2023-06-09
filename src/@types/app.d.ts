@@ -2,7 +2,7 @@ type Seasons = 'sun' | 'rain' | 'snow';
 
 declare interface ISeason {
   id: Seasons
-  sound: any
+  sound: string
   image: string
   icon: string
 }
