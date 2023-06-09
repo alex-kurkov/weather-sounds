@@ -25,12 +25,6 @@ module.exports = merge({
       },
     },
   },
-  resolve: {
-    enforceExtension: false,
-    fallback: {
-      fs: false,
-    },
-  },
   plugins: [
     new MiniCssExtractPlugin(),
   ],

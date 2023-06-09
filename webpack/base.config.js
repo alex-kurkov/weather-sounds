@@ -29,6 +29,8 @@ module.exports = {
     new MiniCssExtractPlugin(),
   ],
   resolve: {
+    extensions: ['.ts', '.js'],
+    enforceExtension: false,
     alias: {
       sounds: path.resolve(rootDirectory, 'src/assets/sounds'),
       images: path.resolve(rootDirectory, 'src/assets/images'),
@@ -37,6 +39,18 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.ts$/,
+        use: [
+          {
+            loader: 'ts-loader',
+            options: {
+              configFile: path.resolve(rootDirectory, 'tsconfig.json'),
+            },
+          },
+        ],
+        exclude: /node_modules/,
+      },
       {
         test: /\.(?:jpg|mp3|svg|)$/i,
         type: 'asset/resource',

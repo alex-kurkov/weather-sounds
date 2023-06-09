@@ -10,7 +10,8 @@ import snowSound from 'sounds/winter.mp3';
 import snowImage from 'images/winter-bg.jpg';
 import snowIcon from 'icons/cloud-snow.svg';
 
-export default [
+const seasons: ISeason[] =
+[
   {
     id: 'sun',
     sound: sunSound,
@@ -30,3 +31,5 @@ export default [
     icon: `url(${snowIcon}`,
   },
 ];
+
+export default seasons;
