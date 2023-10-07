@@ -23,7 +23,7 @@
     "gh-pages": "5.0.0",
     "html-webpack-plugin": "5.5.1",
     "mini-css-extract-plugin": "2.7.6",
-    "postcss": "8.4.24",
+    "postcss": "8.4.31",
     "postcss-loader": "7.3.2",
     "postcss-preset-env": "8.4.2",
     "sass": "1.62.1",
